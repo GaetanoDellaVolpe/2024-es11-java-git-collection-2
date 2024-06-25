@@ -9,7 +9,7 @@ public class DataHelper {
     // restituisce una lista di numeri interi casuali compresi tra 0 e 10
     public static List<Integer> getRandomInteger(int size) {
         Random rand = new Random();
-        size=20;
+        size=20;;
         ArrayList<Integer> numeriRandom = new ArrayList<>();
 
         for (int i = 0; i < size; i++) {
